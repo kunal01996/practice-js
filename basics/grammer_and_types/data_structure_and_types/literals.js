@@ -17,3 +17,33 @@
 // Extra commas in array iterals
 var extras = ['fish', , , , , 'Justified'];
 console.log(extras);
+
+// Boolean Literals
+// the boolean type has 2 literal values true and false
+
+var bool1 = true;
+var bool2 = false;
+
+console.log(typeof bool1, typeof bool2);
+
+// Numeric literals
+// 1. without a leading zero denotes a decimal integer
+// 2. with a leading zero or 0o or o0 denotes an octal number
+// 3. with leading 0x denotes a hex
+// 4. with a leading 0b denotes a binary
+
+console.log(10, typeof 10);
+console.log(0o23, typeof 0o23);
+console.log(0x2A, typeof 0x2A);
+console.log(0b1010, typeof 0b1010);
+
+// Floating literal
+// 1. A decimal integer which can be signed
+console.log(+21, typeof +21);
+// 2. A decimal point
+console.log(12.21, typeof .21);
+// 3. A fraction
+console.log(-.12, typeof -.12);
+// 4. An exponent
+console.log(2e3, typeof 2e3);
+
